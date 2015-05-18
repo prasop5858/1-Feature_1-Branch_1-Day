@@ -1,0 +1,11 @@
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\bin\Debug\License.exe
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\bin\Debug\License.pdb
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\bin\Debug\License.xml
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.Resources.resources
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.vbproj.GenerateResource.Cache
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.exe
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.xml
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.pdb
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\bin\Debug\License.exe.CodeAnalysisLog.xml
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\bin\Debug\License.exe.lastcodeanalysissucceeded
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.frmHome.resources
