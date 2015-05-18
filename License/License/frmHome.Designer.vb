@@ -23,11 +23,11 @@ Partial Class frmHome
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusVersion = New System.Windows.Forms.ToolStripStatusLabel()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ApplicationLicenseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OperationLicenseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripStatusVersion = New System.Windows.Forms.ToolStripStatusLabel()
         Me.StatusStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -41,6 +41,12 @@ Partial Class frmHome
         Me.StatusStrip1.Size = New System.Drawing.Size(383, 22)
         Me.StatusStrip1.TabIndex = 0
         Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripStatusVersion
+        '
+        Me.ToolStripStatusVersion.Name = "ToolStripStatusVersion"
+        Me.ToolStripStatusVersion.Size = New System.Drawing.Size(121, 17)
+        Me.ToolStripStatusVersion.Text = "ToolStripStatusLabel1"
         '
         'MenuStrip1
         '
@@ -69,12 +75,6 @@ Partial Class frmHome
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.ExitToolStripMenuItem.Text = "Exit"
-        '
-        'ToolStripStatusVersion
-        '
-        Me.ToolStripStatusVersion.Name = "ToolStripStatusVersion"
-        Me.ToolStripStatusVersion.Size = New System.Drawing.Size(121, 17)
-        Me.ToolStripStatusVersion.Text = "ToolStripStatusLabel1"
         '
         'frmHome
         '
