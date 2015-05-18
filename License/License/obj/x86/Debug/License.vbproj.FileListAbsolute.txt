@@ -10,3 +10,4 @@ D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\bin\Debug\License.ex
 D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\bin\Debug\License.exe.lastcodeanalysissucceeded
 D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.frmHome.resources
 D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.frmApplication.resources
+D:\SmartGit_Backup\1-Feature_1-Branch_1-Day\License\License\obj\x86\Debug\License.frmInfo_Application.resources

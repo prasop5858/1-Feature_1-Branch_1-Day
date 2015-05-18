@@ -24,10 +24,10 @@ Partial Class frmApplication
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmApplication))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.ToolStripStatusVersion = New System.Windows.Forms.ToolStripStatusLabel()
         Me.BackToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusVersion = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButtonSort = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
@@ -56,6 +56,18 @@ Partial Class frmApplication
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
+        'BackToolStripMenuItem
+        '
+        Me.BackToolStripMenuItem.Name = "BackToolStripMenuItem"
+        Me.BackToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.BackToolStripMenuItem.Text = "Back"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusVersion})
@@ -71,18 +83,6 @@ Partial Class frmApplication
         Me.ToolStripStatusVersion.Name = "ToolStripStatusVersion"
         Me.ToolStripStatusVersion.Size = New System.Drawing.Size(121, 17)
         Me.ToolStripStatusVersion.Text = "ToolStripStatusLabel1"
-        '
-        'BackToolStripMenuItem
-        '
-        Me.BackToolStripMenuItem.Name = "BackToolStripMenuItem"
-        Me.BackToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.BackToolStripMenuItem.Text = "Back"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'ToolStrip1
         '

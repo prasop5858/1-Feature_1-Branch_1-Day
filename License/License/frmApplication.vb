@@ -28,4 +28,11 @@ Public Class frmApplication
             ds.Tables.Remove("MyData")
         End If
     End Sub
+    Private Sub ToolStripButtonSort_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripButtonSort.Click
+        SortDataInCurrentColumn(DataGridViewApplication)
+    End Sub
+    Private Sub DataGridViewApplication_CellContentDoubleClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridViewApplication.CellContentDoubleClick
+        frmInfo_Application.Show()
+        Me.Close()
+    End Sub
 End Class
