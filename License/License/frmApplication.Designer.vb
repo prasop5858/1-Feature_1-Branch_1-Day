@@ -180,6 +180,7 @@ Partial Class frmApplication
         Me.DataGridViewApplication.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridViewApplication.Location = New System.Drawing.Point(18, 70)
         Me.DataGridViewApplication.Name = "DataGridViewApplication"
+        Me.DataGridViewApplication.ReadOnly = True
         Me.DataGridViewApplication.Size = New System.Drawing.Size(683, 150)
         Me.DataGridViewApplication.TabIndex = 3
         '
